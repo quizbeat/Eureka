@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11801A061F6332E700223137 /* TORoundedTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 118019FE1F6332E700223137 /* TORoundedTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11801A071F6332E700223137 /* TORoundedTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 118019FF1F6332E700223137 /* TORoundedTableView.m */; };
+		11801A081F6332E700223137 /* TORoundedTableViewCapCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 11801A001F6332E700223137 /* TORoundedTableViewCapCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11801A091F6332E700223137 /* TORoundedTableViewCapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11801A011F6332E700223137 /* TORoundedTableViewCapCell.m */; };
+		11801A0A1F6332E700223137 /* TORoundedTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 11801A021F6332E700223137 /* TORoundedTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11801A0B1F6332E700223137 /* TORoundedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 11801A031F6332E700223137 /* TORoundedTableViewCell.m */; };
+		11801A0C1F6332E700223137 /* TORoundedTableViewCellBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = 11801A041F6332E700223137 /* TORoundedTableViewCellBackground.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11801A0D1F6332E700223137 /* TORoundedTableViewCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 11801A051F6332E700223137 /* TORoundedTableViewCellBackground.m */; };
 		280FBE5D1D87360900900064 /* RuleRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280FBE5C1D87360900900064 /* RuleRange.swift */; };
 		280FBE5F1D873CCE00900064 /* RuleClosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280FBE5E1D873CCE00900064 /* RuleClosure.swift */; };
 		2859CD951C7CF1FD0002982F /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2859CD921C7CF1FD0002982F /* Core.swift */; };
@@ -100,6 +108,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		118019FE1F6332E700223137 /* TORoundedTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TORoundedTableView.h; sourceTree = "<group>"; };
+		118019FF1F6332E700223137 /* TORoundedTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TORoundedTableView.m; sourceTree = "<group>"; };
+		11801A001F6332E700223137 /* TORoundedTableViewCapCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TORoundedTableViewCapCell.h; sourceTree = "<group>"; };
+		11801A011F6332E700223137 /* TORoundedTableViewCapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TORoundedTableViewCapCell.m; sourceTree = "<group>"; };
+		11801A021F6332E700223137 /* TORoundedTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TORoundedTableViewCell.h; sourceTree = "<group>"; };
+		11801A031F6332E700223137 /* TORoundedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TORoundedTableViewCell.m; sourceTree = "<group>"; };
+		11801A041F6332E700223137 /* TORoundedTableViewCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TORoundedTableViewCellBackground.h; sourceTree = "<group>"; };
+		11801A051F6332E700223137 /* TORoundedTableViewCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TORoundedTableViewCellBackground.m; sourceTree = "<group>"; };
 		280FBE5C1D87360900900064 /* RuleRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RuleRange.swift; path = Source/Validations/RuleRange.swift; sourceTree = SOURCE_ROOT; };
 		280FBE5E1D873CCE00900064 /* RuleClosure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RuleClosure.swift; path = Source/Validations/RuleClosure.swift; sourceTree = SOURCE_ROOT; };
 		2859CD921C7CF1FD0002982F /* Core.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Core.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -204,6 +220,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		118019FD1F6332E700223137 /* TORoundedTableView */ = {
+			isa = PBXGroup;
+			children = (
+				118019FE1F6332E700223137 /* TORoundedTableView.h */,
+				118019FF1F6332E700223137 /* TORoundedTableView.m */,
+				11801A001F6332E700223137 /* TORoundedTableViewCapCell.h */,
+				11801A011F6332E700223137 /* TORoundedTableViewCapCell.m */,
+				11801A021F6332E700223137 /* TORoundedTableViewCell.h */,
+				11801A031F6332E700223137 /* TORoundedTableViewCell.m */,
+				11801A041F6332E700223137 /* TORoundedTableViewCellBackground.h */,
+				11801A051F6332E700223137 /* TORoundedTableViewCellBackground.m */,
+			);
+			name = TORoundedTableView;
+			path = Source/TORoundedTableView;
+			sourceTree = SOURCE_ROOT;
+		};
 		2859CD901C7CF1FD0002982F /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,6 +364,7 @@
 		51729DED1B9A4F5E004A00EB /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				118019FD1F6332E700223137 /* TORoundedTableView */,
 				2859CD901C7CF1FD0002982F /* Core */,
 				2859CD971C7CF2020002982F /* Rows */,
 				287E7D7C1D62552C0065F4DE /* Validations */,
@@ -386,6 +419,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				51729E671B9A5FA5004A00EB /* Eureka.h in Headers */,
+				11801A0A1F6332E700223137 /* TORoundedTableViewCell.h in Headers */,
+				11801A061F6332E700223137 /* TORoundedTableView.h in Headers */,
+				11801A0C1F6332E700223137 /* TORoundedTableViewCellBackground.h in Headers */,
+				11801A081F6332E700223137 /* TORoundedTableViewCapCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +532,7 @@
 				28EEC0331C7E64AB00300699 /* PopoverSelectorRow.swift in Sources */,
 				28EEBFF81C7E241200300699 /* SelectableRowType.swift in Sources */,
 				28EEC0201C7E3AD200300699 /* SegmentedRow.swift in Sources */,
+				11801A0D1F6332E700223137 /* TORoundedTableViewCellBackground.m in Sources */,
 				28EEC01F1C7E3AC800300699 /* LabelRow.swift in Sources */,
 				287E7D7E1D625A260065F4DE /* RuleRequired.swift in Sources */,
 				28EEC0191C7E3A3D00300699 /* SelectorAlertController.swift in Sources */,
@@ -509,7 +547,9 @@
 				280FBE5F1D873CCE00900064 /* RuleClosure.swift in Sources */,
 				28EEC0001C7E36EB00300699 /* SwitchRow.swift in Sources */,
 				3973000A1DF0E2A000080E4D /* PickerInputRow.swift in Sources */,
+				11801A0B1F6332E700223137 /* TORoundedTableViewCell.m in Sources */,
 				287E7D901D7601850065F4DE /* RuleLength.swift in Sources */,
+				11801A091F6332E700223137 /* TORoundedTableViewCapCell.m in Sources */,
 				28EEC02A1C7E3B5A00300699 /* MultipleSelectorRow.swift in Sources */,
 				28EEC0231C7E3B1900300699 /* AlertRow.swift in Sources */,
 				28EEC0221C7E3B1300300699 /* ActionSheetRow.swift in Sources */,
@@ -518,6 +558,7 @@
 				28EEBFFD1C7E25F100300699 /* Cell.swift in Sources */,
 				28EEC0321C7E64A400300699 /* DatePickerRow.swift in Sources */,
 				FA56B6AF1DBAD38900407C94 /* RuleEqualsToRow.swift in Sources */,
+				11801A071F6332E700223137 /* TORoundedTableView.m in Sources */,
 				28EEBFE81C7E1D7E00300699 /* CellType.swift in Sources */,
 				28EEC0241C7E3B1D00300699 /* PickerRow.swift in Sources */,
 				28EEC0281C7E3B4B00300699 /* FieldsRow.swift in Sources */,

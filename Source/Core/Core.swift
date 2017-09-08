@@ -446,7 +446,7 @@ open class FormViewController: UIViewController, FormViewControllerProtocol, For
         navigationAccessoryView.autoresizingMask = .flexibleWidth
 
         if tableView == nil {
-            tableView = UITableView(frame: view.bounds, style: tableViewStyle)
+            tableView = TORoundedTableView(frame: view.bounds, style: tableViewStyle)
             tableView.autoresizingMask = UIViewAutoresizing.flexibleWidth.union(.flexibleHeight)
             if #available(iOS 9.0, *) {
                 tableView.cellLayoutMarginsFollowReadableWidth = false
