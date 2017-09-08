@@ -32,7 +32,7 @@ FOUNDATION_EXPORT const unsigned char EurekaVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Eureka/PublicHeader.h>
 
-#import "TORoundedTableView.h"
-#import "TORoundedTableViewCapCell.h"
-#import "TORoundedTableViewCell.h"
-#import "TORoundedTableViewCellBackground.h"
+#import <Eureka/TORoundedTableView.h>
+#import <Eureka/TORoundedTableViewCapCell.h>
+#import <Eureka/TORoundedTableViewCell.h>
+#import <Eureka/TORoundedTableViewCellBackground.h>
